@@ -4,7 +4,7 @@ WHAT THE PROGRAM MUST DO
     Ask for two numbers and display the result of the four operations.
 
 ANSWER THESE FIRST, in comments at the top of your file
-    1. What goes in?
+    1. What goes in?c
     2. What happens to it?
     3. What comes out?
     4. What should your program do when the second number is zero? Decide, write your
