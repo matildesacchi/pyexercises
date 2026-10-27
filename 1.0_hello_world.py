@@ -26,6 +26,10 @@ DELIVERABLE
 # 2. Process:
 # 3. Out:
 # 4. My message, and why:
+Ciao = "Hello"
+for i in range (3):
+    print(Ciao)
+
 
 
 # Your code below
