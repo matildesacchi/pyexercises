@@ -1,7 +1,7 @@
 """Exercise 1.0 — Hello World
 
 WHAT THE PROGRAM MUST DO
-    Display a message of your choice, five times, with each line numbered.
+    Display a message of your choice, five times, with each line numbered.gua
 
 ANSWER THESE FIRST, in comments at the top of your file, before any code
     1. What goes in?
@@ -22,23 +22,17 @@ DELIVERABLE
     This file, with your comments and your code.
 """
 
-# 1. In:
-# 2. Process:
-# 3. Out:
-# 4. My message, and why:
-Ciao = "Hello"
-for i in range (3):
-    print(Ciao)
-
-
+# 1. In:a text message and the number of times to repeat it
+# 2. Process:the program repeats the message in a loop, adding the line number each time
+# 3. Out:the message printed on screen five times, each line numbered from 1 to 5
+# 4. My message, and why:"Hello, [tuo nome]!" because it is my first program, and I want it to greet me personally instead of the generic "Hello, World!"
+nome = "Matilde"
+for i in range (5):
+    print(nome)
 
 # Your code below
-print("Hello, world!")
-print("1. Hello")
-print("2. Hello")
-print("3. Hello")
-print("4. Hello")
-print("5. Hello")
+print("Hello, Matilde!")
 
-for i in range( 0,4 ) :
-    print("Hello")
+
+for i in range( 5 ) :
+    print("Hello, Matilde!")
