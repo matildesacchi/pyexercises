@@ -1,6 +1,6 @@
 """Exercise 4.0 — Working with a list
 
-WHAT THE PROGRAM MUST DO
+WHAT THE PROGRAM MUST DOo
     Build a list of at least eight items, then display: the whole list, one item of your
     choice, the list sorted, and something computed from it.
 
