@@ -4,7 +4,7 @@ WHAT THE PROGRAM MUST DO
     Ask for two numbers and display the result of the four operations.
 
 ANSWER THESE FIRST, in comments at the top of your file
-    1. What goes in?c
+    1. What goes in?
     2. What happens to it?
     3. What comes out?
     4. What should your program do when the second number is zero? Decide, write your
@@ -24,10 +24,10 @@ DELIVERABLE
     This file, with your comments and your code.
 """
 
-# 1. In:
-# 2. Process:
-# 3. Out:
-# 4. What happens when the second number is zero, and why:
+# 1. In: two numbers typed by the user
+# 2. Process: the program converts them from text to numbers and calculates addition, subtraction, multiplication and division
+# 3. Out: the results of the four operations
+# 4. What happens when the second number is zero, and why:If the second number is zero: the program displays a message instead of the division result, because dividing by zero is impossible and would crash the program
 
 
 # Your code below
@@ -40,7 +40,7 @@ sum = number_1 + number_2
 print("The sum of two number is: ", sum )
 
 # difference of two numbers 
-diff = number_2 - number_1
+diff = number_1 - number_2
 print("The difference between two numbers is : ", diff)
 
 # multiplication of two numbers 
@@ -52,4 +52,8 @@ if number_2 !=0:
     division = number_1 / number_2 
     print("The division of two numbers is:", division)
 else:
-   print("The number 2 is zero")
+   print("The second number is zero, division is impossible")
+
+   # CHECK IT YOURSELF
+# 7 divided by 2 is 3.5. My program shows 3.5 because I used float(). 
+# With 0 as the second number: the program shows the message instead of crashing
