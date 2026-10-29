@@ -6,7 +6,7 @@ WHAT THE PROGRAM MUST DO
 ANSWER THESE FIRST, in comments at the top of your file, before any code
     1. What goes in?
     2. What happens to it?
-    3. What comes out?
+    3. What comes out? 
     4. What message did you choose, and why that one?
 
 WHAT THE AI CANNOT KNOW
