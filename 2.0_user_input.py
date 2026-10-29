@@ -26,10 +26,10 @@ DELIVERABLE
     This file, with your comments and your code.
 """
 
-# 1. In:
-# 2. Process:
-# 3. Out:
-# 4. My two fields, and what I would do with them:
+# 1. In:the user's name (text) and the user's age (a number)
+# 2. Process:the program asks for both with input(), stores them in two variables and puts them together in a sentence
+# 3. Out:a sentence like "Hi, my name is Matilde and my age is 22"
+# 4. My two fields, and what I would do with them: name and age, as in a registration form for a university event. The name is used to welcome the person, the age to check if they are old enough to sign upo
 
 
 # Your code below
@@ -41,4 +41,4 @@ print(name)
 print(age)
 
 print(name, age)
-print("Hi, my name is "+ name +  " and my age is" + age)
+print("Hi, my name is "+ name +  " and my age is " + age)
