@@ -6,7 +6,7 @@ WHAT THE PROGRAM MUST DO
 
 ANSWER THESE FIRST, in comments at the top of your file
     1. What goes in?
-    2. What happens to it?
+    2. What happens to it?s
     3. What comes out?
     4. What should happen if the user types 0, a negative number, or 5000?
        Decide the three behaviours before writing anything.
